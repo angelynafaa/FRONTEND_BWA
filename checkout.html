@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
 
     
-    
+    <link rel="stylesheet" href="frontend/libraries/gigo/css/gijgo.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800|Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap">
     <link rel="stylesheet" href="frontend/style/utama.css">
 </head>
@@ -134,6 +134,8 @@
                                             <option value="Visa">N/A</option>
                                         </select>
 
+
+
                                     <label for="doePassport" class="sr-only">Doe Passport</label>
                                     <div class="input-group mb-2 mr-sm-2">
                                         <div class="input-group mb-2 mr-sm-2">
@@ -142,7 +144,7 @@
                                         </div>
                                     </div>
 
-                                    <button type="submit" class="btn.btn-add-now.mb-2.px-4">
+                                    <button type="submit" class="btn btn-add-now mb-2 px-4">
                                         Add Now
                                     </button>
                                       
@@ -271,5 +273,18 @@
      <script src="frontend/libraries/retina/retina.min.js"></script>
      <script src="frontend/libraries/jquery/jquery.js"></script>
     <script src="frontend/libraries/bootstrap/js/boostrap.js"></script>
+    <script src="frontend/libraries/gigo/js/gijgo.min.js"></script>
+    <script>
+        $(',xzoom, .xzoom-gallery').xzoom({
+            zoomwidth: 500,
+            title: false,
+            tint: '#333',
+            Xoffset: 15
+        });
+
+        $('.datepicker').datepicker({
+        uilibrary: 'boostrap4',
+        })
+    </script>
 </body>
 </html>
