@@ -344,6 +344,18 @@ header{
             font-size: 14px;
             color: #b1b1b1;
         }
+
+        .gj-datepicker{
+           .datepicker{
+               border-right: 0;
+
+           } 
+           .inpuy-group-append{
+               .btn{
+                   padding-right: 30px;
+               }
+           }
+        }
         .card-right{
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
@@ -421,6 +433,11 @@ header{
    .btn-add-now{
        background-color: #071c4D;
        color: #fff;
+
+       &:hover{
+           background-color: #183886;
+           color: #fff;
+       }
 
    }
 
