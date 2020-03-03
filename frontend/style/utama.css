@@ -274,6 +274,30 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
+.section-details-content .card-details .trip-information th {
+  font-weight: 300px;
+  font-size: 18px;
+  color: #071c4D;
+}
+
+.section-details-content .card-details .trip-information td {
+  font-weight: 300;
+  font-size: 13px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
 .section-details-content .card-details .card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -340,6 +364,11 @@ header .btn-get-started:hover {
 
 .section-details-content .btn-join-now.hover {
   background-color: #FFB57C;
+  color: #fff;
+}
+
+.section-details-content .btn-add-now {
+  background-color: #071c4D;
   color: #fff;
 }
 /*# sourceMappingURL=utama.css.map */
