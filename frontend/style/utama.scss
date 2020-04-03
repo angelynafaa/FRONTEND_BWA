@@ -280,16 +280,17 @@ header{
    
 }
 
-.section-details-header{
-    min-height: 310px;
-    background-color: #e4e4e8;
-    margin-top: -70px;
 
+.section-details-header{
+ min-height: 310px;
+ background: #e4e6eb;
+ margin-top: -75px;
 
 }
 .section-details-content{
     margin-top: -210px;
     min-height: 100vh;
+    //vh (view port high, tinggi dar browsernya)
     .breadcrumb{
         background-color: transparent;
         padding: 0;
@@ -357,7 +358,7 @@ header{
                border-right: 0;
 
            } 
-           .inpuy-group-append{
+           .input-group-append{
                .btn{
                    padding-right: 30px;
                }
