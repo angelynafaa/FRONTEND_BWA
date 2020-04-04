@@ -98,16 +98,23 @@
                                          <img src="/frontend/images/g1.jpg" class="xzoom" id="xzoom-default" xoriginal="/frontend/images/g1.jpg">
                                      </div>
                                    <div class="xzoom-thumbs">
-                                       <a href="/frontend/images/g2.png">
-                                    <img src="/frontend/images/g4.png" class="xzoom-gallery" width="128">
-                                    </a>
                                     <a href="/frontend/images/g3.jpg">
                                         <img src="/frontend/images/g3.jpg" class="xzoom-gallery" width="128">
                                         </a>
+                                    <a href="/frontend/images/g3.jpg">
+                                        <img src="/frontend/images/g3.jpg" class="xzoom-gallery" width="128">
+                                        </a>
+                                        <a href="/frontend/images/g3.jpg">
+                                            <img src="/frontend/images/g3.jpg" class="xzoom-gallery" width="128">
+                                            </a>
+                                            <a href="/frontend/images/g3.jpg">
+                                                <img src="/frontend/images/g3.jpg" class="xzoom-gallery" width="128">
+                                                </a>
+                                                <a href="/frontend/images/g3.jpg">
+                                                    <img src="/frontend/images/g3.jpg" class="xzoom-gallery" width="128">
+                                                    </a>
                                    </div>
-                                   <a href="/frontend/images/g5.jpg">
-                                    <img src="/frontend/images/g5.jpg" class="xzoom-gallery" width="128">
-                                    </a>
+                                   
                                </div>
 
                                  </div>
@@ -264,5 +271,15 @@
      <script src="frontend/libraries/jquery/jquery.js"></script>
     <script src="frontend/libraries/bootstrap/js/boostrap.js"></script>
     <script src="frontend/libraries/xzoom/xzoom.min.js"> </script>
+    <script>
+        $(document).ready(function(){
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomwidth: 500,
+                title :false,
+                tint : '#333',
+                xoffset : 15
+            });
+        });
+    </script>
 </body>
 </html>
